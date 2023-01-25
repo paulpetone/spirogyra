@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Florzinha from '../../assets/florzinha.svg'
+import FoguinhoPNG from '../../images/foguinho.png'
 
 export default {
   Banner: styled.section`
@@ -64,6 +65,7 @@ export default {
     align-self: flex-end;
     width: 232px;
     position: relative;
+    overflow: hidden;
 
     @media (min-width: 800px) {
         width: 370px;
@@ -77,11 +79,29 @@ export default {
             width: 364px;
         }
   `,
-  Foguinho: styled.img`
+  Foguinho: styled.div`
+        @keyframes foguinho {
+            0%    { background-position-x: 0px; }
+            100%  { background-position-x: -232px; }
+        }
+
+        animation: foguinho 1.5s linear infinite;
         position: absolute;
-        bottom: 4px;
+        bottom: 0;
         left: 0;
         width: 100%;
+        background: url('${FoguinhoPNG}');
+        background-size: 100%;
+        background-repeat: repeat-x;
+        height: 85px;
+
+        @media (min-width: 800px) {
+            @keyframes foguinho {
+                0%    { background-position-x: 0px; }
+                100%  { background-position-x: -370px; }
+            }
+            height: 132px;
+        }
   `,
   EstrelaPCaraio: styled.div`
         position: absolute;

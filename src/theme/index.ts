@@ -25,6 +25,16 @@ export const GlobalStyles =  createGlobalStyle`
     padding: 0;
 }
 
+@keyframes rotateMaluquete {
+  0%    { transform: rotate(0deg); }
+  50%   { transform: rotate(180deg); }
+  100%  { transform: rotate(360deg); }
+}
+
+.rotate {
+  animation: rotateMaluquete 5s ease-in-out infinite;
+}
+
 body {
     font-family: 'Silom';
     background: #333333;

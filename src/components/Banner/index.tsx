@@ -4,7 +4,6 @@ import Estrelinha from '../../assets/estrelinha.svg'
 import Solzinho from '../../assets/solzinho.svg'
 import MiniEstrela from '../../assets/miniestrela.svg'
 import Nois from '../../images/nois.jpg'
-import Foguinho from '../../images/foguinho.png'
 
 export default () => {
   return (
@@ -19,7 +18,7 @@ export default () => {
             <Estrelinha/>
           </S.FirstIconRow>
           <S.SecondIconRow>
-            <Solzinho />
+            <Solzinho className="rotate" />
             <S.Florzinha />
           </S.SecondIconRow>
         </S.Icons>
@@ -46,7 +45,7 @@ export default () => {
         <S.NoisHolder>
           <S.AnimatedArea>
             <S.Nois src={Nois} alt="nois" />
-            <S.Foguinho src={Foguinho} alt="foguinho" />
+            <S.Foguinho />
           </S.AnimatedArea>
         </S.NoisHolder>
       </S.Ornaments>
