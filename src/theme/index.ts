@@ -21,7 +21,14 @@ export const GlobalStyles =  createGlobalStyle`
   }
 
 * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Silom';
+    background: #333333;
 
     h1 {
         font-family: 'Rovery';
