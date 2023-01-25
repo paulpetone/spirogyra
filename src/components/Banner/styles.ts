@@ -24,7 +24,7 @@ export default {
             letter-spacing: 6px;
 
             @media (min-width: 800px) {
-                line-height: 200px;
+                line-height: 120px;
             }
 
             &.gyra {
@@ -38,6 +38,11 @@ export default {
         svg {
             width: 36px;
             height: 36px;
+
+            @media (min-width: 800px) {
+                width: 92px;
+                height: 92px;
+            }
         }
     `,
   TitleHolder: styled.div`
@@ -49,7 +54,7 @@ export default {
         margin-top: 12px;
     `,
   SecondIconRow: styled.div`
-        margin-top: 30px;
+        margin-top: 20px;
     `,
   NoisHolder: styled.div`
         display: flex;
@@ -109,6 +114,7 @@ export default {
         @media (min-width: 800px) {
             position: absolute;
             right: 32px;
+            bottom: 10px;
         }
   `,
   Florzinha: styled(Florzinha)`
@@ -117,6 +123,28 @@ export default {
         @media (min-width: 370px) {
             display: inline-block;
             margin-left: 16px;
+        }
+
+        @media (min-width: 800px) {
+            display: none;
+        }
+
+        @media (min-width: 960px) {
+            display: inline-block;
+        }
+  `,
+  Links: styled.div`
+        display: none;
+
+        @media (min-width: 800px) {
+            display: block;
+        }
+
+        a {
+            font-size: 24px;
+            margin-bottom: 24px;
+            display: block;
+            color: #EE7382;
         }
   `
 }

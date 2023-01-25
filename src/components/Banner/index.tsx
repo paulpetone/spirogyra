@@ -24,6 +24,13 @@ export default () => {
           </S.SecondIconRow>
         </S.Icons>
       </S.TitleHolder>
+      <S.Links>
+        <a href="#sobre">SOBRE {'>'}</a>
+        <a href="#2022">FESTIVAL 2022 {'>'}</a>
+        <a href="#fotos">FOTOS {'>'}</a>
+        <a href="#colaboradores">COLABORADORES {'>'}</a>
+        <a href="https://www.instagram.com/spirogyra.fest/">INSTAGRAM {'>'}</a>
+      </S.Links>
       <S.Ornaments>
         <S.EstrelaPCaraio>
           <MiniEstrela />
