@@ -32,15 +32,15 @@ export default () => {
       </S.Links>
       <S.Ornaments>
         <S.EstrelaPCaraio>
-          <MiniEstrela />
-          <MiniEstrela />
-          <MiniEstrela />
-          <MiniEstrela />
-          <MiniEstrela />
-          <MiniEstrela />
-          <MiniEstrela />
-          <MiniEstrela />
-          <MiniEstrela />
+          <MiniEstrela className="rotateOnHover" />
+          <MiniEstrela className="scaleOnHover"/>
+          <MiniEstrela className="rotateOnHover" />
+          <MiniEstrela className="scaleOnHover" />
+          <MiniEstrela className="rotateOnHover" />
+          <MiniEstrela className="scaleOnHover" />
+          <MiniEstrela className="rotateOnHover" />
+          <MiniEstrela className="scaleOnHover" />
+          <MiniEstrela className="rotateOnHover" />
         </S.EstrelaPCaraio>
         <S.NoisHolder>
           <S.AnimatedArea>

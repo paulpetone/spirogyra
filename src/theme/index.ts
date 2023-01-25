@@ -31,8 +31,26 @@ export const GlobalStyles =  createGlobalStyle`
   100%  { transform: rotate(360deg); }
 }
 
+@keyframes scaleMaluquete {
+  0%    { transform: scale(1); }
+  50%   { transform: scale(1.5); }
+  100%  { transform: scale(1); }
+}
+
 .rotate {
   animation: rotateMaluquete 5s ease-in-out infinite;
+}
+
+.rotateOnHover {
+  &:hover {
+    animation: rotateMaluquete 3s ease-in-out;
+  }
+}
+
+.scaleOnHover {
+  &:hover {
+    animation: scaleMaluquete 1s linear;
+  }
 }
 
 body {

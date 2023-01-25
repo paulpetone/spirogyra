@@ -85,7 +85,7 @@ export default {
             100%  { background-position-x: -232px; }
         }
 
-        animation: foguinho 1.5s linear infinite;
+        animation: foguinho 10s linear infinite;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -165,6 +165,11 @@ export default {
             margin-bottom: 24px;
             display: block;
             color: #EE7382;
+            transition: color .2s linear;
+
+            &:hover {
+                color: #AACF87;
+            }
         }
   `
 }
