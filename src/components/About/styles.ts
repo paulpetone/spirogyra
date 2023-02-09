@@ -5,6 +5,10 @@ export default {
     height: 100vh;
     padding: 20vh 25px 0;
 
+    @media (min-width: 800px) {
+      padding: 20vh 20% 0 40%;
+    }
+
     p {
       margin-bottom: 3vh;
       font-size: 3vh;
@@ -14,7 +18,7 @@ export default {
   Title: styled.h2`
     color: #AACF87;
     margin-bottom: 24px;
-    font-size: 32px;
+    font-size: 5vh;
     letter-spacing: 3px;
   `,
   Red: styled.p`
