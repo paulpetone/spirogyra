@@ -53,11 +53,15 @@ export const GlobalStyles =  createGlobalStyle`
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Silom';
     background: #333333;
 
-    h1 {
+    h1,h2,h3,h4,h5,h6 {
         font-family: 'Rovery';
     }
 }
