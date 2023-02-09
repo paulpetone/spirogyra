@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card/index';
+import Card from './Card/index'
 import S from './styles'
 import Estrelinhas from '../../assets/estrelinhass.svg'
 
@@ -13,52 +13,50 @@ type TWorker = {
 
 const workers: TWorkers = [
   {
-    'name': 'Julia Pasquarelli',
-    'job': 'designer & ilustradora',
-    'picture': ''
+    name: 'Julia Pasquarelli',
+    job: 'designer & ilustradora',
+    picture: ''
   },
   {
-    'name': 'Paulo Silveira',
-    'job': 'programador & músico',
-    'picture': ''
+    name: 'Paulo Silveira',
+    job: 'programador & músico',
+    picture: ''
   },
   {
-    'name': 'Mariana Estol',
-    'job': 'musicista, atriz & diretora de arte',
-    'picture': ''
+    name: 'Mariana Estol',
+    job: 'musicista, atriz & diretora de arte',
+    picture: ''
   },
   {
-    'name': 'Ba Pimentel',
-    'job': 'publicitária & musicista',
-    'picture': ''
+    name: 'Ba Pimentel',
+    job: 'publicitária & musicista',
+    picture: ''
   },
   {
-    'name': 'Duda Melo',
-    'job': 'advogada & ceramista',
-    'picture': ''
+    name: 'Duda Melo',
+    job: 'advogada & ceramista',
+    picture: ''
   },
   {
-    'name': 'Gi Nunes',
-    'job': 'publicitária & pintora',
-    'picture': ''
+    name: 'Gi Nunes',
+    job: 'publicitária & pintora',
+    picture: ''
   },
   {
-    'name': "Rafa D'Angelo",
-    'job': 'publicitário & músico',
-    'picture': ''
+    name: 'Rafa D\'Angelo',
+    job: 'publicitário & músico',
+    picture: ''
   },
   {
-    'name': 'João Nhoque',
-    'job': 'produtor, músico & programador',
-    'picture': ''
+    name: 'João Nhoque',
+    job: 'produtor, músico & programador',
+    picture: ''
   },
-];
+]
 
 const Workers = () => {
-
-
   return (
-    <S.Workers>
+    <S.Workers id="colaboradores">
       <S.EstrelinhaHolder>
         <Estrelinhas />
       </S.EstrelinhaHolder>
@@ -67,12 +65,12 @@ const Workers = () => {
         {
           workers.map((item, key)=> {
             return (
-            <Card name={item.name} picture={item.picture} job={item.job}/>
-          )})
+              <Card key={key} name={item.name} picture={item.picture} job={item.job}/>
+            )})
         }
       </S.CardHolder>
     </S.Workers>
   )
-};
+}
 
 export default Workers

@@ -3,6 +3,6 @@ import S from './styles'
 
 export default function () {
   return (
-    <S.Photos>Photos</S.Photos>
+    <S.Photos id="fotos">Photos</S.Photos>
   )
 }
