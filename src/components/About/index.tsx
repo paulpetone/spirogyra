@@ -3,18 +3,17 @@ import S from './styles'
 
 export default function () {
   return (
-    <S.About id="sobre">
+    <S.About id="quem-somos">
+      <S.StyledSeparatorStar className='rotate' />
       <S.Title>
-        SOBRE
+        QUEM SOMOS
       </S.Title>
-      <S.Red>somos um coletivo que orbita em torno da arte.</S.Red>
-      <S.Green>músicos,</S.Green>
-      <S.Green>artistas plásticos,</S.Green>
-      <S.Green>produtores,</S.Green>
-      <S.Green>designers,</S.Green>
-      <S.Green>profissionais de marketing,</S.Green>
-      <S.Red>conectando-se, entre si e com o público, para dar espaço a uma expressão criativa única.</S.Red>
-      <S.Red>spirogyra é sobre as coisas incríveis que podemos construir estando no lugar certo com as pessoas certas.</S.Red>
+      <S.Green>Segundo o Wikipédia, </S.Green>
+      <S.Red>Spirogyra é um gênero de algas verdes, não ramificada, constituída por células cilíndricas que se ligam formando filamentos livre-flutuantes”.</S.Red>
+      <S.Green>Segundo Jorge Bem Jor, </S.Green>
+      <S.Red>Spirogyra é um bichinho bonito, verdinho, que dá na água”. </S.Red>
+      <S.Green>Segundo nós mesmos, </S.Green>
+      <S.Red>Spirogyra (Spiro para os íntimos) é um convite à arte em sua mais alta heterogeneidade: um coletivo de músicos, tatuadores, artistas plásticos, designers, produtores, comunicadores e empreendedores, unidos com a intenção de enaltecer o talento, fortalecer a produção artística independente e facilitar o acesso à cena.</S.Red>
     </S.About>
   )
 }

@@ -11,12 +11,21 @@ export const GlobalStyles =  createGlobalStyle`
   }
 
   @font-face {
-    font-family: 'Silom';
+    font-family: 'Scada-Regular';
     font-weight: normal;
     font-display: swap;
     font-style: normal;
     font-named-instance: 'Regular';
-    src: url("fonts/Silom.otf") format("opentype");
+    src: url("fonts/Scada-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Scada-Bold';
+    font-weight: bold;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Bold';
+    src: url("fonts/Scada-Bold.ttf") format("truetype");
   }
 
 * {
@@ -58,7 +67,7 @@ html {
 }
 
 body {
-    font-family: 'Silom';
+    font-family: 'Scada-Regular';
     background: #333333;
 
     h1,h2,h3,h4,h5,h6 {

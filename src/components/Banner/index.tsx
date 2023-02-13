@@ -24,10 +24,10 @@ export default () => {
         </S.Icons>
       </S.TitleHolder>
       <S.Links>
-        <a href="#sobre">SOBRE {'>'}</a>
-        <a href="#2022">FESTIVAL 2022 {'>'}</a>
+        <a href="#quem-somos">QUEM SOMOS {'>'}</a>
+        <a href="#o-festival">O FESTIVAL {'>'}</a>
         <a href="#fotos">FOTOS {'>'}</a>
-        <a href="#colaboradores">COLABORADORES {'>'}</a>
+        <a href="#idealizadores">IDEALIZADORES {'>'}</a>
         <a href="https://www.instagram.com/spirogyra.fest/">INSTAGRAM {'>'}</a>
       </S.Links>
       <S.Ornaments>

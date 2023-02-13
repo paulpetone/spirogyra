@@ -56,7 +56,7 @@ const workers: TWorkers = [
 
 const Workers = () => {
   return (
-    <S.Workers id="colaboradores">
+    <S.Workers id="idealizadores">
       <S.EstrelinhaHolder>
         <Estrelinhas />
       </S.EstrelinhaHolder>

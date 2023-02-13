@@ -4,7 +4,7 @@ import OFestival from '../../images/o-festival.jpg'
 
 export default function () {
   return (
-    <S.TheFestBanner id="2022">
+    <S.TheFestBanner id="o-festival">
       <img src={OFestival} alt="O Festival" />
       <S.Text>
         O <br />

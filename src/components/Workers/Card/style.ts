@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export default {
-    Card: styled.div`
+  Card: styled.div`
     display: flex;
     align-items: center;    
     margin-bottom: 24px;
@@ -10,8 +10,8 @@ export default {
         margin-bottom: none;
     }
     `,
-    Name: styled.h4`
-    font-family: 'Silom';
+  Name: styled.h4`
+    font-family: 'Scada-Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -20,8 +20,8 @@ export default {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     `,
-    Job: styled.h4`
-    font-family: 'Silom';
+  Job: styled.h4`
+    font-family: 'Scada-Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -29,14 +29,14 @@ export default {
     color: #EE7382;
     letter-spacing: 0.05em;
     `,
-    TextHolder: styled.div`
+  TextHolder: styled.div`
     
     `,
-    Picture: styled.img`
+  Picture: styled.img`
     
     src(${props => props.src})
     `,
-    PicHolder: styled.div`
+  PicHolder: styled.div`
     width: 35px;
     height: 35px;
     border-radius: 25px 25px;
