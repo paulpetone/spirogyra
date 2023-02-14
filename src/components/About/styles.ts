@@ -5,6 +5,7 @@ export default {
   About: styled.section`
     position: relative;
     height: 100vh;
+    box-sizing: border-box;
     padding: 20vh 25px 0;
     overflow: hidden;
 
@@ -52,7 +53,7 @@ export default {
       height: 286px;
       width: 286px;
       right: inherit;
-      top: calc(20vh + 100px);
+      top: calc(20vh + 40px);
       left: 10vw;
     }
   `
