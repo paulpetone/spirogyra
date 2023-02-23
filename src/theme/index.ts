@@ -40,6 +40,12 @@ export const GlobalStyles =  createGlobalStyle`
   100%  { transform: rotate(360deg); }
 }
 
+@keyframes rotateReverse {
+  0%    { transform: rotate(0deg); }
+  50%   { transform: rotate(-180deg); }
+  100%  { transform: rotate(-360deg); }
+}
+
 @keyframes scaleMaluquete {
   0%    { transform: scale(1); }
   50%   { transform: scale(1.5); }
@@ -48,6 +54,10 @@ export const GlobalStyles =  createGlobalStyle`
 
 .rotate {
   animation: rotateMaluquete 5s ease-in-out infinite;
+}
+
+.rotate-reverse {
+  animation: rotateReverse 10s linear infinite;
 }
 
 .rotateOnHover {
