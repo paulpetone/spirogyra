@@ -3,7 +3,7 @@ import S from './styles'
 
 export default function () {
   return (
-    <S.About id="quem-somos">
+    <S.About>
       <S.StyledSeparatorStar className='rotate' />
       <S.Title>
         QUEM SOMOS
