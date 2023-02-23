@@ -46,9 +46,7 @@ export default function () {
         <S.Title>1º edição</S.Title>
         <S.Address>2022: Q.G. 791, Bela Vista - SP</S.Address>
       </S.Header>
-      <S.Bullets>
-        <Bullets bullets={bullets} />
-      </S.Bullets>
+      <Bullets bullets={bullets} />
     </S.FirstEdition>
   )
 }

@@ -16,7 +16,7 @@ const Bullets = ({ bullets }: TBulletsProps) => {
         return (
           <S.Bullet>
             <S.Title>
-              {bullet.icon && <bullet.icon />}
+              {bullet.icon && <bullet.icon className='rotateOnHover' />}
               {bullet.title}
             </S.Title>
             

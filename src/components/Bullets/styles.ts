@@ -2,12 +2,21 @@ import styled from 'styled-components'
 
 export default {
   Bullets: styled.ul`
+    @media (min-width: 800px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
   `,
   Bullet: styled.li`
     list-style: none;
     display: flex;
     flex-direction: column;
     margin-bottom: 24px;
+
+    @media (min-width: 800px) {
+        width: 50%;
+    }
 
     svg {
         width: 22px;
@@ -26,5 +35,9 @@ export default {
   `,
   Desc: styled.span`
     font-size: 16px;
+
+    @media (min-width: 800px) {
+        font-size: 20px;
+    }
   `,
 }
