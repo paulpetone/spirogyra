@@ -7,15 +7,16 @@ export type TBulletsProps = {
         desc: string
         icon?: React.FunctionComponent<React.SVGAttributes<SVGElement>>
     }[]
+    titleColor: '#AACF87' | '#EE7382'
 }
 
-const Bullets = ({ bullets }: TBulletsProps) => {
+const Bullets = ({ bullets, titleColor }: TBulletsProps) => {
   return <S.Bullets>
     {
       bullets.map((bullet) => {
         return (
           <S.Bullet>
-            <S.Title>
+            <S.Title color={titleColor}>
               {bullet.icon && <bullet.icon className='rotateOnHover' />}
               {bullet.title}
             </S.Title>

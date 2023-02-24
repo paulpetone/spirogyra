@@ -46,7 +46,7 @@ export default function () {
         <S.Title>1º edição</S.Title>
         <S.Address>2022: Q.G. 791, Bela Vista - SP</S.Address>
       </S.Header>
-      <Bullets bullets={bullets} />
+      <Bullets titleColor='#AACF87' bullets={bullets} />
     </S.FirstEdition>
   )
 }

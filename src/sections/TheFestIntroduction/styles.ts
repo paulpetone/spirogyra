@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export default {
   TheFestIntroduction: styled.section`
     background-color: #EE7382;
+    color: #333;
     display: flex;
     padding: 24px;
     align-items: center;

@@ -15,19 +15,25 @@ export default {
     margin-bottom: 24px;
 
     @media (min-width: 800px) {
-        width: 50%;
+      width: 50%;
+      margin-bottom: 32px;
     }
 
     svg {
         width: 22px;
         height: 22px;
         margin-right: 8px;
+
+        @media (min-width: 800px) {
+          width: 32px;
+          height: 32px;
+        }
     }
   `,
   Title: styled.h6`
     font-family: 'Scada-Regular';
     text-transform: uppercase;
-    color: #AACF87;
+    color: ${props => props.color};
     display: flex;
     align-items: center;
     margin-bottom: 4px;
