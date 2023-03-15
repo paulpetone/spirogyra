@@ -4,7 +4,7 @@ export default {
   SecondEdition: styled.section`
     background-color: #AACF87;
     color: #333;
-    padding: 24px 24px 40px;
+    padding: 24px 24px 1px;
     
     svg {
       fill: #EE7382;
@@ -15,7 +15,7 @@ export default {
     }
 
     @media (min-width: 800px) {
-      padding: 56px 136px 72px;
+      padding: 56px 136px 0;
     }
   `,
   Header: styled.div`

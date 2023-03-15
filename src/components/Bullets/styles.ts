@@ -15,7 +15,7 @@ export default {
     margin-bottom: 24px;
 
     @media (min-width: 800px) {
-      width: 50%;
+      width: 48%;
       margin-bottom: 32px;
     }
 
