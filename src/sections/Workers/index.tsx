@@ -65,7 +65,7 @@ const Workers = () => {
         {
           workers.map((item, key)=> {
             return (
-              <Card key={key} name={item.name} picture={item.picture} job={item.job}/>
+              <Card key={`workers-${key}`} name={item.name} picture={item.picture} job={item.job}/>
             )})
         }
       </S.CardHolder>

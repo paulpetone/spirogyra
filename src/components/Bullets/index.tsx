@@ -13,9 +13,9 @@ export type TBulletsProps = {
 const Bullets = ({ bullets, titleColor }: TBulletsProps) => {
   return <S.Bullets>
     {
-      bullets.map((bullet) => {
+      bullets.map((bullet, key) => {
         return (
-          <S.Bullet>
+          <S.Bullet key={`bullet-${key}`}>
             <S.Title color={titleColor}>
               {bullet.icon && <bullet.icon className='rotateOnHover' />}
               {bullet.title}

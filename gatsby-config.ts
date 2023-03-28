@@ -16,7 +16,10 @@ const config: GatsbyConfig = {
         include: /assets/ // See below to configure properly
       }
     } 
-  }]
+  },
+  'gatsby-plugin-image',
+  'gatsby-plugin-sharp',
+  'gatsby-transformer-sharp']
 }
 
 export default config
