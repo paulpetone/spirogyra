@@ -42,7 +42,7 @@ export default {
     font-family: 'Scada-Regular';
     font-size: 14px;
     color: #EE7382;
-    margin-left: 35px;
+    margin-left: 28px;
     text-decoration: none;  
   `,
 }

@@ -14,7 +14,8 @@ export default function () {
           <span className='gyra'>GYRA</span>
         </S.Title>
       </S.TitleHolder>
-      <S.InstagramLink href='https://www.instagram.com/spirogyra.fest/?hl=en'> INSTAGRAM </S.InstagramLink>
+      <S.InstagramLink href='https://www.instagram.com/spirogyra.fest/?hl=en'>INSTAGRAM</S.InstagramLink>
+      <S.InstagramLink href='mailto:spirogyra.fest@gmail.com'>EMAIL</S.InstagramLink>
     </S.Footer>
   )
 }

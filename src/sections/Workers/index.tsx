@@ -3,55 +3,72 @@ import Card from './Card'
 import S from './styles'
 import BannerStyle from '../Banner/styles'
 import MiniEstrela from '../../assets/miniestrela.svg'
+import Julia from '../../images/people/julia.jpg'
+import Pol from '../../images/people/pol.jpg'
+import Mari from '../../images/people/mari.jpg'
+import Ba from '../../images/people/ba.jpg'
+import Duda from '../../images/people/duda.jpg'
+import Gi from '../../images/people/gi.jpg'
+import Rafa from '../../images/people/rafa.jpg'
+import Jao from '../../images/people/jao.jpg'
 
 type TWorkers = TWorker[];
 
 type TWorker = {
-  name: string,
-  job: string,
+  name: string
+  job: string
   picture: string
+  insta: string
 }
 
 const workers: TWorkers = [
   {
     name: 'Julia Pasquarelli',
     job: 'designer & ilustradora',
-    picture: ''
+    picture: Julia,
+    insta: 'https://www.instagram.com/zu.lia/'
   },
   {
     name: 'Paulo Silveira',
     job: 'programador & músico',
-    picture: ''
+    picture: Pol,
+    insta: 'https://www.instagram.com/paulpetone/'
   },
   {
     name: 'Mariana Estol',
     job: 'musicista, atriz & diretora de arte',
-    picture: ''
+    picture: Mari,
+    insta: 'https://www.instagram.com/marianaestol/'
   },
   {
     name: 'Ba Pimentel',
     job: 'publicitária & musicista',
-    picture: ''
+    picture: Ba,
+    insta: 'https://www.instagram.com/barbarapimentels/'
   },
   {
     name: 'Duda Melo',
     job: 'advogada & ceramista',
-    picture: ''
+    picture: Duda,
+    insta: 'https://www.instagram.com/mriavmelo/'
   },
   {
     name: 'Gi Nunes',
     job: 'publicitária & pintora',
-    picture: ''
+    picture: Gi,
+    insta: 'https://www.instagram.com/nunesgio/'
   },
   {
     name: 'Rafa D\'Angelo',
     job: 'publicitário & músico',
-    picture: ''
+    picture: Rafa,
+    insta: 'https://www.instagram.com/rafamdangelo/'
   },
   {
     name: 'João Nhoque',
     job: 'produtor, músico & programador',
-    picture: ''
+    picture: Jao,
+    insta: 'https://www.instagram.com/jgabriel.nhoque/'
   },
 ]
 
@@ -74,7 +91,7 @@ const Workers = () => {
         {
           workers.map((item, key)=> {
             return (
-              <Card key={`workers-${key}`} name={item.name} picture={item.picture} job={item.job}/>
+              <Card key={`workers-${key}`} {...item} />
             )})
         }
       </S.CardHolder>

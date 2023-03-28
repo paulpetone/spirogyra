@@ -9,12 +9,6 @@ export default {
     padding: 190px 135px 0;
   }
   `,
-  EstrelinhaHolder: styled.div`
-  position: absolute;
-  right: 10%;
-  margin-top: -35px;
-  overflow: hidden;
-  `,
   Title: styled.h1`
   text-transform: uppercase;
   font-weight: 400;

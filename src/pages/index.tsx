@@ -13,10 +13,17 @@ import SecondEdition from '../sections/SecondEdition'
 import TheFestFooter from '../sections/TheFestFooter'
 import PhotosHeader from '../sections/PhotosHeader'
 import WorkersFooter from '../sections/WorkersFooter'
+import styled from 'styled-components'
+
+const S = {
+  Holder: styled.div`
+    overflow: hidden;
+  `
+}
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <>
+    <S.Holder>
       <GlobalStyles />
       <Banner />
       <div id="quem-somos">
@@ -38,7 +45,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <WorkersFooter />
       </div>
       <Footer />
-    </>
+    </S.Holder>
   )
 }
 

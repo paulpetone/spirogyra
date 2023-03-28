@@ -22,10 +22,10 @@ export default function () {
         <S.Text>SPIROGYRA È DOCE DOCE DOCE</S.Text>
       </S.Title>
       <S.Invite>Que tal sediar esse evento lindo e maravilhoso?</S.Invite>
-      <S.Link href="https://www.instagram.com/spirogyra.fest/" target="_blank">
+      <a className="button" href="https://www.instagram.com/spirogyra.fest/" target="_blank">
         <Instagram />
         CHAMA NA DM
-      </S.Link>
+      </a>
     </S.TheFestFooter>
   )
 }

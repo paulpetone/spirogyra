@@ -52,27 +52,6 @@ export default {
     }
   `,
   Link: styled.a`
-    width: 100%;
-    background-color: #EE7382;
-    display: flex;
-    height: 42px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    font-size: 12px;
-    text-decoration: none;
-    color: #333;
-    border: 1px solid #AACF87;
-    transition: all .3s ease-in;
-    max-width: 390px;
     
-    &:hover {
-      background-color: #AACF87;
-      border: 1px solid #EE7382;
-    }
-
-    svg {
-      margin-right: 8px;
-    }
   `
 }

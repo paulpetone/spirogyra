@@ -1,10 +1,17 @@
 import styled from 'styled-components'
 
 export default {
-  Card: styled.div`
+  Card: styled.a`
     display: flex;
     align-items: center;    
     margin-bottom: 24px;
+    text-decoration: none;
+    color: #EE7382;
+    transition: color .2s linear;
+
+    &:hover {
+      color: #AACF87;
+    }
 
     &:last-child {
         margin-bottom: none;
@@ -21,7 +28,6 @@ export default {
     font-weight: 400;
     font-size: 10px;
     line-height: 140%;
-    color: #EE7382;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 
@@ -35,7 +41,6 @@ export default {
     font-weight: 400;
     font-size: 10px;
     line-height: 140%;
-    color: #EE7382;
     letter-spacing: 0.05em;
 
     @media (min-width: 800px) {
@@ -43,7 +48,7 @@ export default {
     }
     `,
   TextHolder: styled.div`
-    max-width: 260px;
+    max-width: 220px;
   `,
   Picture: styled.img`
     src(${props => props.src})
@@ -51,14 +56,24 @@ export default {
   PicHolder: styled.div`
     width: 35px;
     height: 35px;
+    overflow: hidden;
     border-radius: 50%;
     background-color: #EE7382;
     margin-right: 10px;
+    filter: grayscale(1);
+
+    img {
+      width: 35px;
+    }
 
     @media (min-width: 800px) {
       width: 80px;
       height: 80px;
       margin-right: 22px;
+
+      img {
+        width: 80px;
+      }
     }
     `
 }

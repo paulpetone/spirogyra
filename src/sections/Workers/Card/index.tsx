@@ -1,17 +1,19 @@
+import { MainImage } from 'gatsby-plugin-image'
 import React from 'react'
 import S from './style'
 
 type TWorker = {
-    name: string
-    job: string
-    picture: string
+  name: string
+  job: string
+  picture: string
+  insta: string
 }
 
-const Card: React.FC<TWorker> = ({name, job, picture}) => {
+const Card: React.FC<TWorker> = ({ name, job, picture, insta }) => {
   return (
-    <S.Card>
+    <S.Card href={insta}>
       <S.PicHolder>
-        <S.Picture src={picture}/>
+        <MainImage alt={name} src={picture} />
       </S.PicHolder>
       <S.TextHolder>
         <S.Name>{name}</S.Name>

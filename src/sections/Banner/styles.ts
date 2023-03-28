@@ -137,6 +137,7 @@ export default {
       
             @media (min-width: 800px) {
               max-width: 156px;
+              right: 20px
             }
       
             svg {
