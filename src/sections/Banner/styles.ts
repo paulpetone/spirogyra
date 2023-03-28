@@ -128,6 +128,24 @@ export default {
                 height: 38px;
             }
         }
+
+        &.estrelapcaraio--workers {
+            width: 240px;
+            max-width: 115px;
+            top: -25px;
+            right: -10px;
+      
+            @media (min-width: 800px) {
+              max-width: 156px;
+            }
+      
+            svg {
+              path {
+                fill: #EE7382;
+              }
+            }
+        }
+
   `,
   Ornaments: styled.div`
         position: relative;

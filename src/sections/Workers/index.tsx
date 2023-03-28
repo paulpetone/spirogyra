@@ -1,7 +1,8 @@
 import React from 'react'
-import Card from './Card/index'
+import Card from './Card'
 import S from './styles'
-import Estrelinhas from '../../assets/estrelinhass.svg'
+import BannerStyle from '../Banner/styles'
+import MiniEstrela from '../../assets/miniestrela.svg'
 
 type TWorkers = TWorker[];
 
@@ -57,10 +58,18 @@ const workers: TWorkers = [
 const Workers = () => {
   return (
     <S.Workers>
-      <S.EstrelinhaHolder>
-        <Estrelinhas />
-      </S.EstrelinhaHolder>
-      <S.Title>Colaboradores</S.Title>
+      <BannerStyle.EstrelaPCaraio className='estrelapcaraio--workers'>
+        <MiniEstrela className="rotateOnHover" />
+        <MiniEstrela className="scaleOnHover"/>
+        <MiniEstrela className="rotateOnHover" />
+        <MiniEstrela className="scaleOnHover" />
+        <MiniEstrela className="rotateOnHover" />
+        <MiniEstrela className="scaleOnHover" />
+        <MiniEstrela className="rotateOnHover" />
+        <MiniEstrela className="scaleOnHover" />
+        <MiniEstrela className="rotateOnHover" />
+      </BannerStyle.EstrelaPCaraio>
+      <S.Title>Idealizadores</S.Title>
       <S.CardHolder>
         {
           workers.map((item, key)=> {
