@@ -6,7 +6,7 @@ export default {
     flex-wrap: wrap;
     
     .gatsby-image-wrapper {
-      width: 33%;
+      width: 33.3333%;
       max-height: 120px;
       cursor: pointer;
 
