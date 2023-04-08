@@ -11,6 +11,8 @@ import Duda from '../../images/people/duda.jpg'
 import Gi from '../../images/people/gi.jpg'
 import Rafa from '../../images/people/rafa.jpg'
 import Jao from '../../images/people/jao.jpg'
+import Feu from '../../images/people/feu.jpg'
+import Euclides from '../../images/people/euclides.jpg'
 
 type TWorkers = TWorker[];
 
@@ -69,6 +71,18 @@ const workers: TWorkers = [
     job: 'produtor, músico & programador',
     picture: Jao,
     insta: 'https://www.instagram.com/jgabriel.nhoque/'
+  },
+  {
+    name: 'Euclides Francisco',
+    job: 'redator & escritor',
+    picture: Euclides,
+    insta: 'https://www.instagram.com/euclidesfranciscojr/'
+  },
+  {
+    name: 'Felipe Pasquarelli',
+    job: 'cantor & campositor',
+    picture: Feu,
+    insta: 'https://www.instagram.com/feupasquarelli/'
   },
 ]
 

@@ -11,6 +11,10 @@ export default {
 
     &:hover {
       color: #AACF87;
+
+      .picholder {
+        filter: grayscale(0);
+      }
     }
 
     &:last-child {
@@ -61,6 +65,7 @@ export default {
     background-color: #EE7382;
     margin-right: 10px;
     filter: grayscale(1);
+    transition: all .3s linear;
 
     img {
       width: 35px;

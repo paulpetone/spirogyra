@@ -10,7 +10,7 @@ export default {
     }
 
     @media (min-width: 800px) {
-      padding: 40px 135px;
+      padding: 80px 135px 40px;
       line-height: 90px;
     }
   `,

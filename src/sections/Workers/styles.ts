@@ -6,7 +6,7 @@ export default {
   position: relative;
 
   @media (min-width: 800px) {
-    padding: 190px 135px 0;
+    padding: 120px 135px 0;
   }
   `,
   Title: styled.h1`

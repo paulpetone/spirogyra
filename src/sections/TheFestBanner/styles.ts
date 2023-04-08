@@ -13,7 +13,7 @@ export default {
 
     @media (min-width: 800px) {
       height: 512px;
-      background-position: 0 -80px;
+      background-position: 0 0;
     }
   `,
   Text: styled.h2`
