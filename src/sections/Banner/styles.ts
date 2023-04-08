@@ -5,9 +5,9 @@ import FoguinhoPNG from '../../images/foguinho.png'
 export default {
   Banner: styled.section`
         padding: 40px 22px 0;
-        height: 100vh;
-
+        
         @media (min-width: 800px) {
+            height: 100vh;
             padding: 60px 140px;
         }
     `,
