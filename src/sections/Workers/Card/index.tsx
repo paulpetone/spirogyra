@@ -11,7 +11,7 @@ type TWorker = {
 
 const Card: React.FC<TWorker> = ({ name, job, picture, insta }) => {
   return (
-    <S.Card href={insta}>
+    <S.Card target="_blank" href={insta}>
       <S.PicHolder>
         <MainImage alt={name} src={picture} />
       </S.PicHolder>
