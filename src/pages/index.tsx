@@ -53,6 +53,6 @@ export default IndexPage
 
 export const Head: HeadFC = () => (
   <>
-    <title>Home Page</title>
+    <title>Spirogyra Fest</title>
   </>
 )
